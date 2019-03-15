@@ -10,6 +10,9 @@ namespace lab2
     {
         static void Main(string[] args)
         {
+            
+            Combinations combinations = new Combinations("A,B,C,D,E,F");
+            combinations.Print();
         }
     }
 }
